@@ -37,4 +37,22 @@ Los **puntos neutros** son puntos en los cuales las distintas redes ISP se inter
 
 <center><img src="./img/tier.png" style="margin-left:100px" width="400" height="300" hspace="220" vspace="100" />
 
+# DIRECCIONAMIENTO
 
+
+Cuando queremos acceder a una página web, se forma un paquete de datos con una determinada información en las distintas capas que se iban trasmitiendo entre los distintos nodos a través de internet hasta llegar al destino, devolviendo la información requerida. El direccionamiento, dependiendo de la capa, se hace de distintas formas:
+
+- **Nombrededominio:** En la capa de aplicación, para direccionar, se usa el nombre de dominio debido a que la capa de aplicación es justo la que interacciona con nosotros y un nombre de dominio es más fácil de recordar. La capa lo traduce a direcciones IP que entiende la máquina.
+- **Dirección IP:** se localiza en la capa de red e identifica a los host (tanto fuente como destino).
+- **Puertos:** un puerto sirve para contestar peticiones que nos envíen otros dispositivos. Hay puertos de propósito específico, dinámicos, etc. Se localizan en la capa de transporte.
+
+Hay dos tipos básicos de direcciones IP:
+
+- **Públicas:** sólo direcciona a un dispositivo y se paga(o se alquila)por ella. Son unívocas, cada dirección se asigna sólo a un dispositivo en internet.
+- **Privadas:** funcionan como un número de teléfono en una centralita. Son direcciones que se pueden repetir en el mundo, pero dentro de una red privada serán únicas (y fuera de ella lo serán si se suman a la IP del router). Cuando se abre un canal hacia una página web, la IP que aparece es la de nuestro router. Su razón de existencia se debe a que sin ellas, habríamos agotado hace ya mucho tiempo el número de dispositivos máximos que podemos conectar a internet.
+
+Los rangos reservados para IPs privadas son:
+
+- **10.0.0.0/8:** permiten tener 224 dispositivos conectados. Se usan en redes muy grandes y abarcan desde 10.0.0.0 a 10.255.255.255.
+- **172.16.0.0/11:** son para redes intermedias, como la red de la UGR. Abarcan desde 172.16.0.0 a 172.31.255.255.
+- **192.168.0.0/16:** son para redes pequeñas,16 veces más pequeñas que las anteriores. Abarcan desde 192.168.0.0 a 192.168.255.255.
