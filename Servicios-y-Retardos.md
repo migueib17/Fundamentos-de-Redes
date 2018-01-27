@@ -25,6 +25,7 @@ Existen varios tipos de red, estableciendo una topología jerárquica:
     - **Tier-1:** son operadores gigantes que pueden alcanzar cualquier IP del mundo usando sólo acuerdos de peering. Hay unos 13 o 14 en el mundo, telefónica, orange, ATP, NTTP,...
     - **Tier-2:** son operadores que pueden acceder a cualquier IP del mundo, pero para algunas zonas tienen que llegar a acuerdos de tránsito además de peering.
     - **Tier-3:** son operadores que pueden acceder a cualquier IP del mundo a través de acuerdos de tránsito. Ejemplo: Ono.
+
 Los operadores llegan a acuerdos o contratos de:
     - **Peering:** un contrato que establece un operador de telecomunicaciones con otro de intercambio de tráfico sin remuneración. Se realiza entre grandes operadores.
     - **Tránsito:** un operador contrata la infraestructura para tráfico a cambio de dinero.
