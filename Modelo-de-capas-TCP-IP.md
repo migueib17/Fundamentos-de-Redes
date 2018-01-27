@@ -1,7 +1,7 @@
 
 # MODELO DE CAPAS TCP/IP
 
-![Alt text](/img/capas.png)
+![](./img/capas.png =100x20)
 
 El modelo OSI tiene capas con muy poco contenido, por eso, en otros modelos se emplea un número menor de capas mediante trasvase de funciones asociadas a otros niveles resumiéndose así el modelo de referencia. En TCP/IP (el modelo que se usa en internet, ha triunfado lo sencillo) hay sólo tres capas. TCP/IP habla de protocolos concretos.
 
