@@ -6,9 +6,13 @@
 Tenemos varios **problemas** a la hora de la comunicación en red, tales como:
 
 -Reodenar paquetes.
+
 -Control de diálogo.
+
 -Sintáxis.
+
 -Semántica.
+
 ......
 
 y para llevar a cabo la comunicación necesitamos transparencia + eficacia + seguridad.
