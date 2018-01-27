@@ -32,3 +32,7 @@ MODELO DE REFERENCIA = CAPAS + FUNCIONALIDADES
     Bits            Física          
     _______________________________
 
+
+## DESCRIPCIÓN DE LAS CAPAS:
+
+- CAPA FÍSICA: Es la que se encarga de la tranmisión de la señal en la comunicación. Resuelve los problemas relacionados con la transmisión de la información y cómo se representa. Existen una serie de acuerdos entre los dos puntos de la comucicación. Su unidad de comunicación es el bit.
