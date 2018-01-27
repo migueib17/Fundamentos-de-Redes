@@ -22,9 +22,9 @@ Existen varios tipos de red, estableciendo una topología jerárquica:
 - **Intranets (Ethernet) del usuario:** zona pública+zona privada. Se requieren a las redes locales de cada usuario donde se incluyen direcciones privadas para su subred local y direcciones públicas para acceder a la red.
 - **Redes de acceso:** xDSL(toda la familia DSL, por ejemplo, ADSL), RDSI, FTTH (Fibre To The Home (fibra óptica)), etc del ISP.
 - **Redes troncales:** ATM, SDH, SONET, etc. . . de grandes operadores de telecomunicaciones. Un ejemplo de red troncal sería la red iris, que conecta a la comunidad investigadora y las distintas universidades en España. Hay varios tipos de redes troncales, según su tamaño: Tier-1, Tier-2 y Tier-3. Los **operadores** se clasifican en:
-    - **Tier-1:** son operadores gigantes que pueden alcanzar cualquier IP del mundo usando sólo acuerdos de peering. Hay unos 13 o 14 en el mundo, telefónica, orange, ATP, NTTP,...
+    - **Tier-1:** son operadores gigantes que pueden alcanzar cualquier IP del mundo usando sólo acuerdos de peering. Hay unos 13 o 14 en el mundo, Telefónica, Orange, ATP, NTTP,...
     - **Tier-2:** son operadores que pueden acceder a cualquier IP del mundo, pero para algunas zonas tienen que llegar a acuerdos de tránsito además de peering.
-    - **Tier-3:** son operadores que pueden acceder a cualquier IP del mundo a través de acuerdos de tránsito. Ejemplo: Ono.
+    - **Tier-3:** son operadores que acceden a IPs a través de acuerdos de tránsito. Ejemplo: Ono.
 
 Los operadores llegan a acuerdos o contratos de:
 - **Peering:** un contrato que establece un operador de telecomunicaciones con otro de intercambio de tráfico sin remuneración. Se realiza entre grandes operadores.
