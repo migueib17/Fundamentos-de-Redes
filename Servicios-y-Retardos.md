@@ -27,8 +27,8 @@ Existen varios tipos de red, estableciendo una topología jerárquica:
     - **Tier-3:** son operadores que pueden acceder a cualquier IP del mundo a través de acuerdos de tránsito. Ejemplo: Ono.
 
 Los operadores llegan a acuerdos o contratos de:
-    - **Peering:** un contrato que establece un operador de telecomunicaciones con otro de intercambio de tráfico sin remuneración. Se realiza entre grandes operadores.
-    - **Tránsito:** un operador contrata la infraestructura para tráfico a cambio de dinero.
+- **Peering:** un contrato que establece un operador de telecomunicaciones con otro de intercambio de tráfico sin remuneración. Se realiza entre grandes operadores.
+- **Tránsito:** un operador contrata la infraestructura para tráfico a cambio de dinero.
 
 Los **puntos neutros** son puntos en los cuales las distintas redes ISP se interconectan para intercambiar tráfico. Están entre las redes troncales de dos compañías. Se llevan a cabo cuando ha habido un acuerdo de peering o de trásito entre operadores para evitar caminos no razonables.
 
