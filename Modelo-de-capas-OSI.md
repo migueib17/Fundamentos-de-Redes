@@ -46,4 +46,6 @@ MODELO DE REFERENCIA = CAPAS + FUNCIONALIDADES
 - ***CAPA DE TRANSPORTE:*** controla lo mismo que la capa de enlace de datos pero, a diferencia de ésta, sólo lo controla de host (extremo) a host (extremo), no salto a salto como la capa de enlace que están directamente conectados. Es decir, controla que la transmisión de datos entre los dos hosts se haga correctamente. Ejemplo: corregir la información en vez de reenviar. Otra función de esta capa es la de multiplexar aplicaciones sobre una misma conexión de red.
     - **Control de errores:**
     - **Control de flujo:**
-- ***CAPA DE SESIÓN:*** se encarga del diálogo entre dos entidades gestionando su "turno de palabra", mantiene las sesiones.
+- ***CAPA DE SESIÓN:*** se encarga del **diálogo** entre dos entidades gestionando su "turno de palabra", mantiene las sesiones.
+- ***CAPA DE PRESENTACIÓN:*** se encarga de la **sintaxis** transformando un lenguaje común al lenguaje específico de la máquina que interpreta. Ejemplos: codificaciones de compresión, encriptado https, transformación de los datos,... Un ejemplo de sintaxis es cómo representamos los enteros.
+- ***CAPA DE APLICACIÓN:*** se encarga de la **semántica**. Es la capa donde interactúan los usuarios, los programadores también programan en esta capa.
