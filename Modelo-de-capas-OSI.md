@@ -1,9 +1,9 @@
 
-#MODELO DE CAPAS OSI
+# MODELO DE CAPAS OSI
 
 
 
-Tenemos varios **problemas** a la hora de la comnicación en red, tales como:
+Tenemos varios **problemas** a la hora de la comunicación en red, tales como:
 
 -Reodenar paquetes.
 -Control de diálogo.
