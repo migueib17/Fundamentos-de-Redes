@@ -39,6 +39,7 @@ MODELO DE REFERENCIA = CAPAS + FUNCIONALIDADES
 - ***CAPA FÍSICA*** Es la que se encarga de la tranmisión de la señal en la comunicación. Resuelve los problemas relacionados con la transmisión de la información y cómo se representa. Existen una serie de acuerdos entre los dos puntos de la comucicación. Su unidad de comunicación es el bit.
 - ***CAPA DE ENLACE:*** delimita la información en tramas (conjuntos de bits), que es su unidad de comunicación. En la capa de enlace tenemos:
     - **Control de errores:** para conseguir que la información recibida se corresponda con la enviada, existe un temporizador, checksum, ...
+
                           _____________________
                      _   |                     | 
                      |  --                     v
