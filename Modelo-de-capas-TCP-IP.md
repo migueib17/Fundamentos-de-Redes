@@ -34,5 +34,5 @@ El modelo OSI tiene capas con muy poco contenido, por eso, en otros modelos se e
 
 TCP/IP es una red software, ya que puede implementarse sobre cualquier tecnología de red sin ser dependiente de ella, por ello, TCP/IP es el modelo más extendido en la actualidad y un ejemplo de **de facto**. ¿Por qué en TCP/IP no se considera la red subyacente como parte del modelo? Porque TCP/IP es software estándar, pero la red subyacente puede variar en cada ordenador. Los modelos de red son estándares y hay dos tipos:
 
-    - **de facto:** han sido adoptados sin haber seguido un proceso de estandarización formal.
+    - de facto: han sido adoptados sin haber seguido un proceso de estandarización formal.
     - **de jure:** han sido desarrollados por organismos de estandarización reconocidos.
