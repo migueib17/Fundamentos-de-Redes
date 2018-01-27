@@ -35,6 +35,6 @@ Los **puntos neutros** son puntos en los cuales las distintas redes ISP se inter
 - Para medir el tráfico entre operadores, se mide por la **regla del percentil95**.
 - **MPLS** (Multiprotocol Label Switching): Opera entre la capa de enlace de datos y la capa de red del modelo OSI. Fue diseñado para unificar el servicio de transporte de datos para las redes basadas en circuitos y las basadas en paquetes. Puede ser utilizado para transportar diferentes tipos de tráfico, incluyendo tráfico de voz y de paquetes IP.
 
-<center><img src="./img/tier.png" style="margin-left:100px" width="700" height="500" hspace="120" vspace="100" />
+<center><img src="./img/tier.png" style="margin-left:100px" width="500" height="400" hspace="120" vspace="100" />
 
 
