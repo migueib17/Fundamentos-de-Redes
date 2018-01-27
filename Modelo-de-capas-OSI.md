@@ -17,7 +17,7 @@ y para llevar a cabo la comunicación necesitamos transparencia + eficacia + seg
 
 MODELO DE REFERENCIA = CAPAS + FUNCIONALIDADES
 
-*La capa superior siempre encapsula a la inferior.
+*La capa superior _siempre_ encapsula a la inferior.
 
     ______________________________
     Unidad              Capa
