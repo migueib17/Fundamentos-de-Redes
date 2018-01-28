@@ -40,7 +40,7 @@ Los **puntos neutros** son puntos en los cuales las distintas redes ISP se inter
 # DIRECCIONAMIENTO
 
 
-Cuando queremos acceder a una página web, se forma un paquete de datos con una determinada información en las distintas capas que se iban trasmitiendo entre los distintos nodos a través de internet hasta llegar al destino, devolviendo la información requerida. El direccionamiento, dependiendo de la capa, se hace de distintas formas:
+Cuando queremos acceder a una página web, se forma un paquete de datos con una determinada información en las distintas capas que se iban trasmitiendo entre los distintos nodos a través de internet hasta llegar al destino, devolviendo la información requerida. El direccionamiento es la metodología a usar para identificar entidades, dependiendo de la capa, se hace de distintas formas:
 
 - **Nombrededominio:** En la capa de aplicación, para direccionar, se usa el nombre de dominio debido a que la capa de aplicación es justo la que interacciona con nosotros y un nombre de dominio es más fácil de recordar. La capa lo traduce a direcciones IP que entiende la máquina.
 - **Dirección IP:** se localiza en la capa de red e identifica a los host (tanto fuente como destino).
