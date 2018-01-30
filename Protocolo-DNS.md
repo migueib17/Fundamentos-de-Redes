@@ -51,6 +51,6 @@
 - Cada RR es una tupla con 5 campos: Nombre del dominio, Tiempo de vida, Clase, Tipo y Valor.
 - Existe una base de datos asociada de resolución inversa para traducir direcciones IP en nombres de dominio. (in-addr.arpa).
 
-<img src="./img/dns4.png" style="margin-left:100px" width="600" height="300" hspace="150" vspace="100" />
+<img src="./img/dns4.png" style="margin-left:100px" width="630" height="300" hspace="150" vspace="100" />
 
 - **DNS se ofrece en el puerto 53 mediante UDP normalmente o TCP (para respuestas grandes > 512 bytes).**
