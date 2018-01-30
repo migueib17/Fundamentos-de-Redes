@@ -1,7 +1,7 @@
 
 # SERVICIO DE NOMBRES DE DOMINIO (DNS)
 
-DNS: traducción de nombres a direcciones IP (resolución de nombres). La comunicación en Internet precisa de direcciones IP, pero las personas prefieren usar “nombres de dominio”. Estructura jerárquica en dominios:
+**DNS:** traducción de nombres a direcciones IP (resolución de nombres). La comunicación en Internet precisa de direcciones IP, pero las personas prefieren usar “nombres de dominio”. Estructura jerárquica en dominios:
     
     Parte_local.dominio_niveln. ... .dominio_nivel2.dominio_nivel1.
 
@@ -13,6 +13,14 @@ DNS: traducción de nombres a direcciones IP (resolución de nombres). La comu
     - **Servidores Locales.**
 
 <img src="./img/dns1.png" style="margin-left:100px" width="400" height="300" hspace="220" vspace="100" />
+
+- jcp.ugr.es solicita --> www.google.com
+    - Consulta al “resolver” local.
+    - Conexión con DNS local (IP conocida) ¿cómo?.
+    - DNS local --> IP de destino.
+    - Conexión destino.
+
+### Resolución iterativa o recursiva y el uso de caché.
 
 <img src="./img/dns2.png" style="margin-left:100px" width="400" height="300" hspace="220" vspace="100" />
 
