@@ -29,7 +29,7 @@
 - **Persistentes vs no-persistentes:** Los protocolos persistentes siempre están conectados mientras que los no-persistentes, crean una conexión cada vez que se manda un trocito de información.
 - **Best-effort:** hace el máximo esfuerzo por que el paquete llegue a su destino pero si no llega “le da igual”, no se preocupa en realizar el reenvío del paquete.
 - **Calidad de servicio (QoS):** capacidad de ofrecer el rendimiento requirido para una aplicación.
-- **Piggybacking:** unción importante dentro del flujo de detección que minimiza el número de paquetes enviados de señalización de control: en vez de enviar los ACKs como segmentos separados, los envía dentro de otros paquetes que incluyen datos.
+- **Piggybacking:** función importante dentro del flujo de detección que minimiza el número de paquetes enviados de señalización de control: en vez de enviar los ACKs como segmentos separados, los envía dentro de otros paquetes que incluyen datos.
 
 <img src="./img/pro2.png" style="margin-left:100px" width="500" height="300" hspace="200" vspace="100" />
 
