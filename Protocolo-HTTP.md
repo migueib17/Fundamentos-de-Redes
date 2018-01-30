@@ -17,13 +17,13 @@ clientes.
 ### Navegación web: Mensajes HTTP.
 
 **Procedimiento:**
-1a. Cliente HTTP inicia conexión TCP al servidor HTTP (proceso) en www.ugr.es en puerto 80.
-1b. Servidor HTTP acepta la conexión y notifica el cliente.
-2. Cliente HTTP envía request message del objeto.
-3. El servidor HTTP envia el mensaje a través su socket.
-4. Si es persistente envía más objetos.
-5. Cierre de conexión TCP.
-6. Nuevas conexiones TCP.
+1. Cliente HTTP inicia conexión TCP al servidor HTTP (proceso) en www.ugr.es en puerto 80.
+2. Servidor HTTP acepta la conexión y notifica el cliente.
+3. Cliente HTTP envía request message del objeto.
+4. El servidor HTTP envia el mensaje a través su socket.
+5. Si es persistente envía más objetos.
+6. Cierre de conexión TCP.
+7. Nuevas conexiones TCP.
 
 **Procedimiento de mensajes:**
 1. Solicitud DNS para obtener la IP de destino a partir del nombre de dominio.
@@ -52,14 +52,14 @@ Dos tipos de mensajes HTTP: **request**, **response**.
 
 ### MÉTODOS
 
-– OPTIONS: solicitud de información sobre las opciones disponibles.
-– GET: solicitud de un recurso (puede ser condicional).
-– HEAD: igual que GET pero el servidor no devuelve el “cuerpo” sólo cabeceras.
-– POST: solicitar al servidor la aceptación y subordinación a la URI especificada, de la “entidad” (datos) incluida en la solicitud.
-– PUT: solicitud de sustituir la URI especificada con los “datos” incluidos en la solicitud.
-– DELETE: solicitud de borrar la URI especificada.
+- OPTIONS: solicitud de información sobre las opciones disponibles.
+- GET: solicitud de un recurso (puede ser condicional).
+- HEAD: igual que GET pero el servidor no devuelve el “cuerpo” sólo cabeceras.
+- POST: solicitar al servidor la aceptación y subordinación a la URI especificada, de la “entidad” (datos) incluida en la solicitud.
+- PUT: solicitud de sustituir la URI especificada con los “datos” incluidos en la solicitud.
+- DELETE: solicitud de borrar la URI especificada.
 
-### Las cookies.
+### LAS COOKIES.
 
 Las cookies son pequeños ficheros de texto que se intercambian los clientes y los servidores HTTP, para solucionar una de las principales deficiencias del protocolo: la falta de información de estado entre dos transacciones. Fueron introducidas por Netscape.
 - La primera vez que un usuario accede a un determinado documento de un servidor, éste proporciona una cookie que contiene datos que relacionarán posteriores operaciones.
