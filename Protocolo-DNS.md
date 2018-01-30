@@ -12,7 +12,7 @@
     - **Servidores de dominio (Top-Level domain o TLD).**
     - **Servidores Locales.**
 
-<img src="./img/dns1.png" style="margin-left:100px" width="400" height="350" hspace="220" vspace="100" />
+<img src="./img/dns1.png" style="margin-left:100px" width="350" height="350" hspace="220" vspace="100" />
 
 - jcp.ugr.es solicita --> www.google.com
     - Consulta al “resolver” local.
@@ -32,7 +32,7 @@
 - Los servidores autoridad deben contener toda (no “cacheada”) la información de su zona.
 - La autoridad puede delegarse jerárquicamente a otros servidores.
 
-<img src="./img/dns3.png" style="margin-left:100px" width="500" height="300" hspace="220" vspace="100" />
+<img src="./img/dns3.png" style="margin-left:100px" width="550" height="250" hspace="220" vspace="100" />
 
 ### Gestión de la base de datos DNS:
 - Cada zona debe tener al menos un servidor de autoridad.
@@ -51,6 +51,6 @@
 - Cada RR es una tupla con 5 campos: Nombre del dominio, Tiempo de vida, Clase, Tipo y Valor.
 - Existe una base de datos asociada de resolución inversa para traducir direcciones IP en nombres de dominio. (in-addr.arpa).
 
-<img src="./img/dns4.png" style="margin-left:100px" width="550" height="300" hspace="220" vspace="100" />
+<img src="./img/dns4.png" style="margin-left:100px" width="600" height="300" hspace="220" vspace="100" />
 
 - **DNS se ofrece en el puerto 53 mediante UDP normalmente o TCP (para respuestas grandes > 512 bytes).**
