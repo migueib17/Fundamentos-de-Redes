@@ -24,10 +24,10 @@
 - **Reglas:** se refiere a cuándo los procesos envían/responden a mensajes. Para que la comunicación sea efectiva debe hacerse siguiendo unas reglas.
 - **Protocolos de dominio público:** están definidos en los RFCs. Normalmente buscan ser estándarizados. Por ejemplo HTTP, SMTP, etc.
 - **Protocolos propietarios:** al contrario que los de dominio público, son creados por una empresa e implantados en un producto. Estas empresas intentan esconderlo lo máximo posible para que nadie sepa cómo funciona el protocolo.
-- **In-band versus out-of-band: Los protocolos In-band mandan en el mismo paquete la información completa, tanto de datos como de control (HTTP) y los protocolos Out-of-band usan canales distintos para cada cosa (FTP). Por ejemplo, FTP envía la información de control (usuario, contraseña, comandos get/post, etc) por una conexión y los datos, por otra conexión paralela separada.
+- **In-band versus out-of-band:** Los protocolos In-band mandan en el mismo paquete la información completa, tanto de datos como de control (HTTP) y los protocolos Out-of-band usan canales distintos para cada cosa (FTP). Por ejemplo, FTP envía la información de control (usuario, contraseña, comandos get/post, etc) por una conexión y los datos, por otra conexión paralela separada.
 - **Stateless versus state-full:** Los protocolos stateless no guardan información del cliente, a no ser que tengan una intranet o un fichero como las cookies. Los protocolos state-full son servicios que guardan el estado del cliente, por ejemplo, el carrito de la compra, si eres premium o no...
 - **Persistentes vs no-persistentes:** Los protocolos persistentes siempre están conectados mientras que los no-persistentes, crean una conexión cada vez que se manda un trocito de información.
 - **Piggybacking:** unción importante dentro del flujo de detección que minimiza el número de paquetes enviados de señalización de control: en vez de enviar los ACKs como segmentos separados, los envía dentro de otros paquetes que incluyen datos.
 
-<img src="./img/pro2.png" style="margin-left:100px" width="450" height="300" hspace="200" vspace="100" />
+<img src="./img/pro2.png" style="margin-left:100px" width="500" height="300" hspace="200" vspace="100" />
 
